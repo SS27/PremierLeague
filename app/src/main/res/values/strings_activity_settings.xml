@@ -1,0 +1,17 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_results">Results settings</string>
+    <string name="pref_title_timeframe_results">Show data for previous days</string>
+    <string name="pref_default_timeframe_results">7</string>
+    <string name="pref_hint_timeframe_results">Enter number of days in past</string>
+
+
+    <string name="pref_header_fixtures">Fixtures settings</string>
+    <string name="pref_title_timeframe_fixtures">Show data for next days</string>
+    <string name="pref_default_timeframe_fixtures">7</string>
+    <string name="pref_hint_timeframe_fixtures">Enter number of days in future</string>
+
+</resources>

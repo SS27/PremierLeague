@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <PreferenceCategory android:title="@string/pref_header_results">
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_timeframe_results"
+            android:hint="@string/pref_hint_timeframe_results"
+            android:inputType="number"
+            android:key="timeframe_results"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_timeframe_results" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_header_fixtures">
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_timeframe_fixtures"
+            android:hint="@string/pref_hint_timeframe_fixtures"
+            android:inputType="number"
+            android:key="timeframe_fixtures"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_timeframe_fixtures" />
+    </PreferenceCategory>
+</PreferenceScreen>
